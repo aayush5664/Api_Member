@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BWI/DH/oL6sy6uvGK8hZkBPGoZhEM1crfZ4yEYFzwJXGe6WsEVDggOZ2hqbpINoRzlBu9OLxtiJFDT+RLhIwnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Project\\LMS_Azure_Web_Api\\member_api\\member_api\\member_api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\2065812\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
