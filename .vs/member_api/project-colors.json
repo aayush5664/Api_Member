@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "01a76cc1-7766-4ca5-b5aa-b2d661868436": {
+      "ProjectGuid": "01a76cc1-7766-4ca5-b5aa-b2d661868436",
+      "DisplayName": "member_api",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

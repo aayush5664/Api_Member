@@ -3,20 +3,20 @@ kind: Deployment
 metadata:
   name: webapplication22-deployment
   labels:
-    app: WebApplication22
+    app: member_api
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: WebApplication22  
+      app: member_api  
   template:
     metadata:
       labels:
-        app: WebApplication22
+        app: member_api
     spec:
       containers:
-      - name: mydnazurecr0705
-        image: mydnazurecr0705.azurecr.io/azurecontainerrepo001:latest
+      - name: lmsapi001
+        image: lmsapi001.azurecr.io/member_container:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
@@ -25,10 +25,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: webapplication22svc
+  name: member_apisvc
 spec:
   type: LoadBalancer
   ports:
   - port: 80
   selector:
-    app: WebApplication22
+    app: member_api
